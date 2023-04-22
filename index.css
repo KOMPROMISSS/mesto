@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 1280px;
+    height: 1217px;
+    background: #000000;
+}
+
+.header{
+    margin: 45px auto 40px auto;
+    width: 880px;
+    height: 74px;
+}
+
+.header__logo{
+    padding-bottom: 41px;
+    width: 142px;
+    height: 33px;
+}
+
+.line{
+    width: 880px;
+    height: 0px;
+    
+    opacity: 0.7;
+    border: 1px solid #545454;
+}
+
+.profile{
+    position: relative;
+    display: flex;
+    margin: 0 auto 51px auto;
+    width: 880px;
+    height: 120px;
+}
+
+.avatar__image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile-info{
+    position: absolute;
+    padding-top: 22px;
+    padding-left: 150px;
+    width: 336px;
+    height: 73px;
+}
+
+.profile-info__title{
+    padding-bottom: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    /* or 114% */
+    
+    color: #FFFFFF;
+}
+
+.profile-info__subtitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+.edit-button{
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+
+    border: 1px solid #FFFFFF;
+}
+
+.edit-button__pen{
+    width: 10px;
+    height: 10px;
+    /* background: #FFFFFF; */
+}
+
+.add-button{
+    width: 150px;
+    height: 50px;
+}
+
+.add-button__suffix{
+    height: 22px;
+    left: 77.66%;
+    right: 20.62%;
+}
+
+.add-button__rectangle{
+    width: 150px;
+    height: 50px;
+    
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.elements{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.elements__element{
+    width: 282px;
+    height: 361px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.elements__group{
+
+}
+
+.elements__like{
+
+}
+
+.elements__mask-group{
+    width: 282px;
+    height: 282px;
+    
+    border-radius: 0px;
+}
+
+.elements__image{
+
+}
+
+.elements__title{
+    width: 106px;
+    height: 23px;
+    left: 520px;
+    top: 1018px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+.footer{
+    width: 318px;
+    height: 18px;
+}
+
+.footer__copyright{
+    width: 318px;
+    height: 18px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #545454;
+}
