@@ -243,7 +243,7 @@
 .elements__element {
     overflow: hidden;
     width: 282px;
-    
+
     background: #FFFFFF;
     border-radius: 10px;
 }
@@ -304,4 +304,103 @@
 
 .footer__copyright {
     color: #545454;
+}
+
+
+.popup {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 430px;
+    /* z-index: 1; */
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+}
+
+.popup__close-btn {
+    position: inherit;
+    top: -40px;
+    right: -40px;/* мобильная версия будет либо -1px(0) */
+    width: 32px;
+    height: 32px;
+    background-image: url(images/Close.png);
+    border: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+}
+
+.popup__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    margin: 34px auto 0 36px;
+    color: #000000;
+    text-align: left;
+}
+
+.popup__profile-form {
+    margin-top: 54px;
+}
+
+.popup__label {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+}
+
+.popup__input {
+    width: 358px;
+    height: 27px;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    margin-bottom: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.popup__save-btn {
+    width: 358px;
+    height: 50px;
+    margin-top: 18px;
+    margin-bottom: 37px;
+    background: #000000;
+    border-radius: 2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
