@@ -1,0 +1,28 @@
+.popup__close-button {
+    position: inherit;
+    top: -40px;
+    right: -40px;
+
+    width: 32px;
+    height: 32px;
+    background-image: url(images/Close.png);
+    border: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.popup__close-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 319px) {
+    .popup__close-button {
+        /* top: -40px; */
+        right: 0px;
+        width: 20px;
+        height: 20px;
+    }
+}

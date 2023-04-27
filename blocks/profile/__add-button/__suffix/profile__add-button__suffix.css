@@ -1,0 +1,16 @@
+.profile__add-button__suffix {
+    height: 22px;
+    /* left: 77.66%;
+    right: 20.62%; */
+    /* padding: 14px 64px; */
+    margin: auto;
+}
+
+@media screen and (max-width: 319px) {
+    .add-button__suffix {
+        max-width: 16px;
+        max-height: 16px;
+        padding: 17px 133px;
+        /* margin: 36px 19px 0px 19px; */
+    }
+}

@@ -1,0 +1,7 @@
+.elements__element {
+    overflow: hidden;
+    width: 282px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}

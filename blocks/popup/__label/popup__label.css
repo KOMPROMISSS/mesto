@@ -1,0 +1,11 @@
+.popup__label {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+}
+
+@media screen and (max-width: 319px) {
+    .popup__label {
+        width: 238px;
+    }
+}
