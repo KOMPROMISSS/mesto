@@ -1,13 +1,13 @@
-.profile-info {
+.profile__wrapper {
     display: flex;
-    padding-top: 22px;
-    padding-left: 30px;
+    /* padding-top: 22px;
+    padding-left: 30px; */
     /* width: 336px; */
     /* height: 73px; */
 }
 
 @media screen and (max-width: 319px) {
-    .profile-info {
+    .profile__wrapper {
         padding: 26px auto 36px auto;
     }
 }

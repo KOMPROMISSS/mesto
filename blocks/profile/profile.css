@@ -1,6 +1,7 @@
 .profile {
-    position: relative;
+    /* position: relative; */
     display: flex;
+    justify-content: space-between;
     margin: 0 auto 51px auto;
     max-width: 880px;
     /* height: 120px; */
