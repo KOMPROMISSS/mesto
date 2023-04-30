@@ -1,13 +1,11 @@
 .header {
     margin: 45px auto 40px auto;
     max-width: 880px;
-    /* height: 74px; */
 }
 
 .header::after {
     content: '';
     display: block;
-
     max-width: 880px;
     opacity: 0.7;
     border: 1px solid #545454;

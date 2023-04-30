@@ -1,17 +1,14 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/body/body.css);
-
 @import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
 @import url(../blocks/profile/profile__wrapper/profile__wrapper.css);
 @import url(../blocks/profile/profile__wrapper/__avatar/profile__avatar.css);
-@import url(../blocks/profile/profile__wrapper/profile__info-wrapper/__subtitle/profile__subtitle.css);
-@import url(../blocks/profile/profile__wrapper/profile__info-wrapper/__title-wrapper/profile__title.css);
-@import url(../blocks/profile/profile__wrapper/profile__info-wrapper/__title-wrapper/__edit-button/profile__edit-button.css);
-@import url(../blocks/profile/__add-button/profile__add-button.css);
-
-
-
-
+@import url(../blocks/profile/profile__wrapper/__info-wrapper/profile__info-wrapper.css);
+@import url(../blocks/profile/profile__wrapper/__info-wrapper/__subtitle/profile__subtitle.css);
+@import url(../blocks/profile/profile__wrapper/__info-wrapper/__title-wrapper/__title/profile__title.css);
+@import url(../blocks/profile/profile__wrapper/__info-wrapper/__title-wrapper/profile__title-wrapper.css);
+@import url(../blocks/profile/profile__wrapper/__info-wrapper/__title-wrapper/__edit-button/profile__edit-button.css);
 @import url(../blocks/elements/elements.css);
 @import url(../blocks/elements/__element/elements__element.css);
 @import url(../blocks/elements/__element/group-text/group-text.css);

@@ -2,10 +2,8 @@
     box-sizing: border-box;
     width: 24px;
     height: 24px;
-    /* margin-left: 18px;
-    margin-top: 15px; */
-    /* border: 1px solid #FFFFFF; */
-    /* background-repeat: no-repeat; */
+    margin-left: 18px;
+    margin-top: 15px;
     border: none;
     cursor: pointer;
     background-image: url(/images/Pen.svg);

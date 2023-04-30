@@ -23,11 +23,6 @@ popupSaveButton.addEventListener("click", () => {
     console.log("Сохранено");
 })
 
-// elementsLike.addEventListener("click", (e) => {
-//     console.log(e)
-//     elementsLike.src = "images/Union.png"
-// })
-
 elementsLike.forEach(element => {
     element.addEventListener("click", () => {
         if (element.getAttribute("src") == "images/Like.png") {
@@ -37,7 +32,3 @@ elementsLike.forEach(element => {
         }
     })
 });
-
-
-//Надо ли делать карандаш и плюс кнопками в html(тегом button)
-//popupOpened.style.display = "none";
