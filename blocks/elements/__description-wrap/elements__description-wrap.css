@@ -1,4 +1,8 @@
 .elements__description-wrap {
     display: flex;
-    align-content: center;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 25px 20px 30px 21px;
 }

@@ -4,7 +4,7 @@ const popupOpened = document.querySelector(".popup_opened"),
     profileAddButton = document.querySelector(".profile__add-button"),
     popupSaveButton = document.querySelector(".popup__save-button"),
     popup = document.querySelector(".popup"),
-    elementsLike = document.querySelectorAll(".elements__like");
+    elementsLike = document.querySelectorAll(".elements__like-button");
 
 
 popupCloseButton.addEventListener("click", () => {
@@ -25,10 +25,14 @@ popupSaveButton.addEventListener("click", () => {
 
 elementsLike.forEach(element => {
     element.addEventListener("click", () => {
-        if (element.getAttribute("src") == "images/Like.png") {
-            element.src = "images/Union.png"
+        console.log(element.style.backgroundImage)
+        if (element.style.backgroundImage == "url(\"../../../images/Like.png\")") {
+            element.style.backgroundImage = "url(\"../../../images/Union.png\")"
         } else {
-            element.src = "images/Like.png"
+            element.style.backgroundImage = "url(\"../../../images/Like.png\")"
         }
     })
 });
+
+// первый клик по лайку выводит в консоль пустую строку из element.style.backgroundImage
+// центровка страницы: надоли создавать доп. обертку для всей страницы после бади
