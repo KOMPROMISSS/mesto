@@ -6,7 +6,7 @@
     margin-top: 15px;
     border: none;
     cursor: pointer;
-    background-image: url(/images/Pen.svg);
+    background-image: url(../../../../../../images/Pen.svg);
     background-color: transparent;
     background-size: cover;
 }

@@ -5,10 +5,13 @@
     align-self: center;
     border: 2px solid #FFFFFF;
     border-radius: 2px;
+    /* border: none; */
     cursor: pointer;
-    background-image: url(/images/Rectangle.png);
+    background-image: url(../../../images/Vector.png);
     background-color: transparent;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: center;
 }
 
 .profile__add-button:hover {
@@ -17,9 +20,8 @@
 
 @media screen and (max-width: 319px) {
     .profile__add-button {
-        max-width: 282px;
+        width: 282px;
         margin-top: 36px;
-        border: 2px solid #FFFFFF;
-        border-radius: 2px;
+        background-size: 16px 16px;
     }
 }
