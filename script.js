@@ -1,25 +1,20 @@
 const popupOpened = document.querySelector(".popup_opened"),
-    profileEditButton = document.querySelector(".profile__edit-button"),
-    popupCloseButton = document.querySelector(".popup__close-button"),
-    profileAddButton = document.querySelector(".profile__add-button"),
-    popupSaveButton = document.querySelector(".popup__save-button"),
-    popup = document.querySelector(".popup"),
     elementsLike = document.querySelectorAll(".elements__like-button");
 
 
-popupCloseButton.addEventListener("click", () => {
-    popup.classList.remove("popup_opened")
+document.querySelector(".profile__edit-button").addEventListener("click", function () {
+    document.querySelector(".popup").classList.add("open")
 })
 
-profileEditButton.addEventListener("click", () => {
-    popup.classList.add("popup_opened")
+document.querySelector(".profile__add-button").addEventListener("click", function () {
+    document.querySelector(".popup").classList.add("open")
 })
 
-profileAddButton.addEventListener("click", () => {
-    popup.classList.add("popup_opened")
+document.querySelector(".popup__close-button").addEventListener("click", function () {
+    document.querySelector(".popup").classList.remove("open")
 })
 
-popupSaveButton.addEventListener("click", () => {
+document.querySelector(".popup__save-button").addEventListener("click", () => {
     console.log("Сохранено");
 })
 
