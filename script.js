@@ -1,5 +1,5 @@
 const popupOpened = document.querySelector(".popup_opened"),
-    elementsLike = document.querySelectorAll(".elements__like-button");
+    elementsLike = document.querySelectorAll(".elements__like-button") == "true";
 
 
 document.querySelector(".profile__edit-button").addEventListener("click", function () {
@@ -18,15 +18,16 @@ document.querySelector(".popup__save-button").addEventListener("click", () => {
     console.log("Сохранено");
 })
 
-elementsLike.forEach(element => {
-    element.addEventListener("click", () => {
-        console.log(element.style.backgroundImage)
-        if (element.style.backgroundImage == "url(\"../../../images/Like.png\")") {
-            element.style.backgroundImage = "url(\"../../../images/Union.png\")"
-        } else {
-            element.style.backgroundImage = "url(\"../../../images/Like.png\")"
-        }
-    })
-});
+
+// elementsLike.forEach(element => {
+//     element.addEventListener("click", () => {
+//         console.log(element.style.backgroundImage)
+//         if (element.style.backgroundImage == "url(\"../../../images/Like.png\")") {
+//             element.style.backgroundImage = "url(\"../../../images/Union.png\")"
+//         } else {
+//             element.style.backgroundImage = "url(\"../../../images/Like.png\")"
+//         }
+//     })
+// });
 
 // первый клик по лайку выводит в консоль пустую строку из element.style.backgroundImage
