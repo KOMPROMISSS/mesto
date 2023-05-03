@@ -1,0 +1,13 @@
+.elements__like-button_active {
+    width: 22px;
+    height: 19px;
+    border: none;
+    background-image: url(../../../../images/Union.png);
+    cursor: pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.elements__like-button_active:hover {
+    opacity: 0.5;
+}
