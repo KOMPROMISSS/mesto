@@ -10,6 +10,3 @@
 
 * [Ссылка на GH Pages](https://kompromisss.github.io/mesto/)
 Желаю Вам удачи!
-
-Карточка профиля: 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=KOMPROMISSS=solarized_dark)
