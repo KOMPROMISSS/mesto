@@ -6,9 +6,9 @@ document.querySelector(".profile__edit-button").addEventListener("click", functi
     document.querySelector(".popup").classList.add("open")
 })
 
-document.querySelector(".profile__add-button").addEventListener("click", function () {
-    document.querySelector(".popup").classList.add("open")
-})
+// document.querySelector(".profile__add-button").addEventListener("click", function () {
+//     document.querySelector(".popup").classList.add("open")
+// })
 
 document.querySelector(".popup__close-button").addEventListener("click", function () {
     document.querySelector(".popup").classList.remove("open")
