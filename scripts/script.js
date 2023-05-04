@@ -1,22 +1,35 @@
-const popupOpened = document.querySelector(".popup_opened"),
-    elementsLike = document.querySelectorAll(".elements__like-button");
+const elementsLike = document.querySelectorAll(".elements__like-button"),
+    nameInput = document.querySelector("#name-input"),
+    descriptionInput = document.querySelector("#description-input"),
+    profileTitle = document.querySelector(".profile__title"),
+    profileSubtitle = document.querySelector(".profile__subtitle"),
+    profileEditButton = document.querySelector(".profile__edit-button"),
+    popupCloseButton = document.querySelector(".popup__close-button"),
+    popupSaveButton = document.querySelector(".popup__save-button"),
+    popup = document.querySelector(".popup");
 
-
-document.querySelector(".profile__edit-button").addEventListener("click", function () {
-    document.querySelector(".popup").classList.add("open")
+profileEditButton.addEventListener("click", function () {
+    popup.classList.add("popup_open")
+    nameInput.value = profileTitle.textContent
+    descriptionInput.value = profileSubtitle.textContent
 })
 
 // document.querySelector(".profile__add-button").addEventListener("click", function () {
 //     document.querySelector(".popup").classList.add("open")
 // })
 
-document.querySelector(".popup__close-button").addEventListener("click", function () {
-    document.querySelector(".popup").classList.remove("open")
+popupCloseButton.addEventListener("click", function () {
+    popup.classList.remove("popup_open")
 })
 
-document.querySelector(".popup__save-button").addEventListener("click", () => {
-    console.log("Сохранено");
+popupSaveButton.addEventListener("click", () => {
+    let newProfileTitle = nameInput.value;
+    profileTitle.textContent = newProfileTitle;
+    let newProfileSubtitle = descriptionInput.value;
+    profileSubtitle.textContent = newProfileSubtitle;
 })
+
+
 
 elementsLike.forEach(element => {
     element.addEventListener("click", () => {
@@ -29,3 +42,9 @@ elementsLike.forEach(element => {
         }
     })
 });
+
+
+
+// сделать переполнение profile: title subtitle
+// писать макс ширина 319 или мин ширина 320 (адаптив)
+//что значит "Весь код, не относящийся к заданию, надо удалить или закомментировать", хотя он учавствует
