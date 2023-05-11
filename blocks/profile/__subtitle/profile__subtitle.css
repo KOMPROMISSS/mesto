@@ -13,12 +13,48 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 1023px) {
     .profile__subtitle {
         max-width: 282px;
         font-size: 14px;
         line-height: 17px;
-        text-align: center;
-        margin-top: 14px;
+        text-align: left;
+        margin: 8px 0 0;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .profile__subtitle {
+        margin: 7px auto 33px;
+        max-width: 215px;
+        text-align: center;
+    }
+}
+
+/* .profile__subtitle {
+    margin: 7px auto 33px;
+    max-width: 282px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .profile__subtitle {
+      margin: 8px 0 0;
+      text-align: left;
+      max-width: 215px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .profile__subtitle {
+      font-size: 18px;
+      line-height: 22px;
+      max-width: 294px;
+    }
+  } */

@@ -1,4 +1,4 @@
-.header {
+/* .header {
     margin: 45px auto 40px auto;
     max-width: 880px;
 }
@@ -14,6 +14,50 @@
 @media screen and (max-width: 319px) {
     .header {
         margin: 28px 0 42px 0;
+        max-width: 320px;
+    }
+} */
+
+
+/* .header {
+    margin: 28px auto 0;
+    min-height: 55px;
+    max-width: 320px;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header {
+      margin: 45px auto 0;
+      min-height: 73px;
+      max-width: 581px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .header {
+      max-width: 880px;
+    }
+  }
+   */
+
+.header {
+    margin: 45px auto 0;
+    min-height: 73px;
+    max-width: 880px;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: 581px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        margin: 28px auto 0;
+        min-height: 55px;
         max-width: 320px;
     }
 }

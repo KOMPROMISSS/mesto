@@ -1,4 +1,4 @@
-.profile__edit-button {
+/* .profile__edit-button {
     box-sizing: border-box;
     width: 24px;
     height: 24px;
@@ -22,5 +22,31 @@
         margin-left: 10px;
         margin-top: 8px;
         border: 1px solid #FFFFFF;
+    }
+} */
+
+.profile__edit-button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-image: url(../../../images/Pen.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.profile__edit-button:hover {
+    opacity: .6;
+}
+
+@media screen and (min-width: 1024px) {
+    .profile__edit-button {
+        width: 24px;
+        height: 24px;
     }
 }

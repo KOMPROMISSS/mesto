@@ -1,11 +1,12 @@
-.profile__add-button {
+/* .profile__add-button {
     width: 150px;
     display: flex;
     height: 50px;
+    padding: 0;
+    margin: 0;
     align-self: center;
     border: 2px solid #FFFFFF;
     border-radius: 2px;
-    /* border: none; */
     cursor: pointer;
     background-image: url(../../../images/Vector.png);
     background-color: transparent;
@@ -23,5 +24,34 @@
         width: 282px;
         margin-top: 36px;
         background-size: 16px 16px;
+    }
+} */
+
+.profile__add-button {
+    padding: 0;
+    margin: 0;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font: inherit;
+    color: inherit;
+    background-image: url(../../../images/Vector.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    background-size: 22px 22px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.profile__add-button:hover {
+    opacity: .6;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__add-button {
+        background-size: 16px 16px;
+        width: 282px;
+        margin-bottom: 36px;
     }
 }
