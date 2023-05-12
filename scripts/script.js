@@ -14,10 +14,6 @@ profileEditButton.addEventListener("click", function () {
     descriptionInput.value = profileSubtitle.textContent
 })
 
-// document.querySelector(".profile__add-button").addEventListener("click", function () {
-//     document.querySelector(".popup").classList.add("open")
-// })
-
 popupCloseButton.addEventListener("click", function () {
     popup.classList.remove("popup_open")
 })
@@ -28,8 +24,6 @@ popupSaveButton.addEventListener("click", () => {
     let newProfileSubtitle = descriptionInput.value;
     profileSubtitle.textContent = newProfileSubtitle;
 })
-
-
 
 elementsLike.forEach(element => {
     element.addEventListener("click", () => {

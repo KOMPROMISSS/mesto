@@ -1,30 +1,3 @@
-/* .profile__edit-button {
-    box-sizing: border-box;
-    width: 24px;
-    height: 24px;
-    margin-left: 18px;
-    margin-top: 15px;
-    border: none;
-    cursor: pointer;
-    background-image: url(../../../images/Pen.svg);
-    background-color: transparent;
-    background-size: cover;
-}
-
-.profile__edit-button:hover {
-    opacity: 0.6;
-}
-
-@media screen and (max-width: 319px) {
-    .profile__edit-button {
-        height: 18px;
-        width: 18px;
-        margin-left: 10px;
-        margin-top: 8px;
-        border: 1px solid #FFFFFF;
-    }
-} */
-
 .profile__edit-button {
     padding: 0;
     border: none;

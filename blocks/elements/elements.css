@@ -1,27 +1,6 @@
-/* .elements {
-    max-width: 880px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 282px);
-    
-    gap: 20px 17px ;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 1023px){
-    .elements {
-        
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .elements {
-        
-    }
-} */
 .elements {
     margin: 36px auto 0;
     max-width: 282px;
-    margin: 0 auto;
     padding: 0;
     list-style: none;
     display: grid;
