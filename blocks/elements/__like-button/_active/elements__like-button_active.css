@@ -7,7 +7,3 @@
     background-color: transparent;
     background-repeat: no-repeat;
 }
-
-.elements__like-button_active:hover {
-    opacity: 0.5;
-}
