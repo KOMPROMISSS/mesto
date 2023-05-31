@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "mesto"
+    "liveServer.settings.multiRootWorkspaceName": "mesto",
+    "files.autoSave": "onWindowChange"
 }

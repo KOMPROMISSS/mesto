@@ -1,9 +1,9 @@
 .elements__like-button_active {
-    width: 22px;
+    background-image: url(../../../../images/Union.svg);
+    /* width: 22px;
     height: 19px;
     border: none;
-    background-image: url(../../../../images/Union.svg);
     cursor: pointer;
     background-color: transparent;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }

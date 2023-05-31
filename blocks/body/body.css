@@ -10,7 +10,7 @@
     -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 320px) {
     .body {
         max-width: 320px;
     }
