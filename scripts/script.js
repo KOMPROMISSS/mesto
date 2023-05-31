@@ -24,6 +24,7 @@ popupSaveButton.addEventListener("click", () => {
     profileTitle.textContent = newProfileTitle;
     let newProfileSubtitle = descriptionInput.value;
     profileSubtitle.textContent = newProfileSubtitle;
+    popupSaveButton();
 })
 
 // elementsLike.forEach(element => {
