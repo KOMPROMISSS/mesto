@@ -1,31 +1,49 @@
 const 
     // elementsLike = document.querySelectorAll(".elements__like-button"),
-    nameInput = document.querySelector("#name-input"),
-    descriptionInput = document.querySelector("#description-input"),
     profileTitle = document.querySelector(".profile__title"),
     profileSubtitle = document.querySelector(".profile__subtitle"),
     profileEditButton = document.querySelector(".profile__edit-button"),
     popupCloseButton = document.querySelector(".popup__close-button"),
     // popupSaveButton = document.querySelector(".popup__save-button"),
+    popupProfileForm = document.querySelector(".popup__profile-form"),
     popup = document.querySelector(".popup");
 
-profileEditButton.addEventListener("click", function () {
-    popup.classList.add("popup_open")
-    nameInput.value = profileTitle.textContent
-    descriptionInput.value = profileSubtitle.textContent
+let nameInput = document.querySelector("#name-input"),
+    descriptionInput = document.querySelector("#description-input")
+    
+function popupClose() {
+    popup.classList.remove("popup_open");
+}
+
+function popupOpen() {
+    popup.classList.add("popup_open");
+    //let newProfileSubtitle = descriptionInputValue;
+}
+
+profileEditButton.addEventListener("click", function() {
+    popupOpen();
+    nameInput.value = profileTitle.textContent;
+    descriptionInput.value = profileSubtitle.textContent;
+})
+
+popupProfileForm.addEventListener("submit", function () {
+    //nameInput = profileTitle.textContent;
+    profileTitle.textContent = nameInput.value;
+    profileSubtitle.textContent = descriptionInput.value;
+    //descriptionInput = profileSubtitle.textContent;
 })
 
 popupCloseButton.addEventListener("click", function () {
-    popup.classList.remove("popup_open")
+    popupClose();
 })
 
-popupSaveButton.addEventListener("click", () => {
-    let newProfileTitle = nameInput.value;
-    profileTitle.textContent = newProfileTitle;
-    let newProfileSubtitle = descriptionInput.value;
-    profileSubtitle.textContent = newProfileSubtitle;
-    popupSaveButton();
-})
+// popupSaveButton.addEventListener("click", () => {
+//     //let newProfileTitle = nameInputValue;
+//     profileTitle.textContent = nameInput.value;
+//     //let newProfileSubtitle = descriptionInputValue;
+//     profileSubtitle.textContent = descriptionInput.value;
+//     //popupSaveButton();
+// })
 
 // elementsLike.forEach(element => {
 //     element.addEventListener("click", () => {
