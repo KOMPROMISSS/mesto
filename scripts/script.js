@@ -26,12 +26,13 @@ profileEditButton.addEventListener("click", function() {
     descriptionInput.value = profileSubtitle.textContent;
 })
 
-popupProfileForm.addEventListener("submit", function () {
-    event.popupProfileForm();
+popupProfileForm.addEventListener("submit", function (event) {
+    event.preventDefault();
     //nameInput = profileTitle.textContent;
     profileTitle.textContent = nameInput.value;
     profileSubtitle.textContent = descriptionInput.value;
     //descriptionInput = profileSubtitle.textContent;
+    profile.reset();
 })
 
 popupCloseButton.addEventListener("click", function () {
