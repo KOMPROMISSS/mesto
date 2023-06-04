@@ -27,6 +27,7 @@ profileEditButton.addEventListener("click", function() {
 })
 
 popupProfileForm.addEventListener("submit", function () {
+    event.popupProfileForm();
     //nameInput = profileTitle.textContent;
     profileTitle.textContent = nameInput.value;
     profileSubtitle.textContent = descriptionInput.value;
