@@ -32,7 +32,7 @@ popupProfileForm.addEventListener("submit", function (event) {
     profileTitle.textContent = nameInput.value;
     profileSubtitle.textContent = descriptionInput.value;
     //descriptionInput = profileSubtitle.textContent;
-    profile.reset();
+    popupClose();
 })
 
 popupCloseButton.addEventListener("click", function () {
